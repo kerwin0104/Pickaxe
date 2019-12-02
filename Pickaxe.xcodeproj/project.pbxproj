@@ -15,6 +15,8 @@
 		96E604DE2394BF3300563650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E604DD2394BF3300563650 /* main.m */; };
 		96E604E82394BF3300563650 /* PickaxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E604E72394BF3300563650 /* PickaxeTests.m */; };
 		96E604F32394BF3300563650 /* PickaxeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E604F22394BF3300563650 /* PickaxeUITests.m */; };
+		96E605042394C2BA00563650 /* PUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E605032394C2BA00563650 /* PUIViewController.m */; };
+		96E6050D23952FB700563650 /* PUIStageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6050C23952FB700563650 /* PUIStageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		96E604EE2394BF3300563650 /* PickaxeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickaxeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E604F22394BF3300563650 /* PickaxeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickaxeUITests.m; sourceTree = "<group>"; };
 		96E604F42394BF3300563650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E605022394C2BA00563650 /* PUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PUIViewController.h; path = PUI/PUIViewController.h; sourceTree = "<group>"; };
+		96E605032394C2BA00563650 /* PUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PUIViewController.m; path = PUI/PUIViewController.m; sourceTree = "<group>"; };
+		96E6050B23952FB700563650 /* PUIStageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PUIStageViewController.h; path = PUI/PUIStageViewController.h; sourceTree = "<group>"; };
+		96E6050C23952FB700563650 /* PUIStageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PUIStageViewController.m; path = PUI/PUIStageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		96E604CD2394BF3100563650 /* Pickaxe */ = {
 			isa = PBXGroup;
 			children = (
+				96E605012394C27100563650 /* PUI */,
 				96E604CE2394BF3100563650 /* AppDelegate.h */,
 				96E604CF2394BF3100563650 /* AppDelegate.m */,
 				96E604D12394BF3100563650 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				96E604F42394BF3300563650 /* Info.plist */,
 			);
 			path = PickaxeUITests;
+			sourceTree = "<group>";
+		};
+		96E605012394C27100563650 /* PUI */ = {
+			isa = PBXGroup;
+			children = (
+				96E605022394C2BA00563650 /* PUIViewController.h */,
+				96E605032394C2BA00563650 /* PUIViewController.m */,
+				96E6050B23952FB700563650 /* PUIStageViewController.h */,
+				96E6050C23952FB700563650 /* PUIStageViewController.m */,
+			);
+			name = PUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +282,9 @@
 			files = (
 				96E604D32394BF3100563650 /* ViewController.m in Sources */,
 				96E604DE2394BF3300563650 /* main.m in Sources */,
+				96E6050D23952FB700563650 /* PUIStageViewController.m in Sources */,
 				96E604D02394BF3100563650 /* AppDelegate.m in Sources */,
+				96E605042394C2BA00563650 /* PUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
